@@ -8,7 +8,6 @@ cycler==0.10.0
 Flask==1.1.2
 gunicorn==20.1.0
 idna==2.10
-insta-scrape==2.1.2
 itsdangerous==1.1.0
 Jinja2==2.11.3
 jsonschema==2.6.0
