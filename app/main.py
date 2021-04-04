@@ -1,7 +1,13 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
+# 46254607839
+
+# IGQVJVb2p3Mng5NzA1MXVWejN2UE5haFM2dm1la3JHQ2pDMllfSWNVUWhRRWhWZAl94cnQ5REN4X2tsTzhadTFCRWs5NHJXZAUJLYzNOWjA5VWJjNnRjVlVUeEFJZAE1kZAHA5ZAnJ2MFhjdkxRT2Q1dHZASTAZDZD
+
+# IGQVJVb2p3Mng5NzA1MXVWejN2UE5haFM2dm1la3JHQ2pDMllfSWNVUWhRRWhWZAl94cnQ5REN4X2tsTzhadTFCRWs5NHJXZAUJLYzNOWjA5VWJjNnRjVlVUeEFJZAE1kZAHA5ZAnJ2MFhjdkxRT2Q1dHZASTAZDZD
+
 @app.route('/')
 def hello():
-    return 'Hello'
+    return render_template('index.html')
