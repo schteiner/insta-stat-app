@@ -2,15 +2,15 @@
 <html>
  <head>
   <title>stat-app</title>
-  
+
   <!-- style.css -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
    <!-- Jquery -->
   <script type="text/javascript" src="jquery-3.3.1.js"></script>
 
    <!-- script.js -->
-  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
 
   <!-- Required meta tags -->
   <meta charset="utf-8">
